@@ -1,6 +1,7 @@
 <script>
     import Time from './Time.svelte';
     import Calendar from './Calendar.svelte';
+    import Network from './Network.svelte';
 </script>
 
 <main>
@@ -11,6 +12,7 @@
         </div>
 
         <div class="right">
+            <Network/>
         </div>
     </div>
     
@@ -28,6 +30,7 @@
 
     .container {
         display: flex;
+        gap: 6rem;
     }
 
     .left {

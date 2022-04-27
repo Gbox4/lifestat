@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "source ./.env && nodemon server.js"
+    "start": "source ./.env && nodemon --ignore ./src/ server.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
